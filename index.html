@@ -38,20 +38,16 @@
             </div>
 
             <p style="line-height: 30px;">
-              Talking head generation with arbitrary identities and speech audio remains a crucial problem in
+Talking head generation with arbitrary identities and speech audio remains a crucial problem in
 the realm of the virtual metaverse. Recently, diffusion models have become a
-popular generative technique in this field with their strong generation and generalization capabilities.
-However, several challenges remain for diffusion-based methods: 1) inefficient inference and visual
-artifacts, which arise from the implicit latent space of Variational Auto-Encoders (VAE), complicating
-the diffusion process; 2) authentic facial expressions and head movements, resulting from insufficient
-multi-modal information interaction. In this paper, MoDA handle these challenges by 1) defines a
-joint parameter space to bridge motion generation and neural rendering, and leverages flow matching
-to simplify the diffusion learning process; 2) introduces a multi-modal diffusion architecture to
-model the interaction among noisy motion, audio, and auxiliary conditions, ultimately enhancing
-overall facial expressiveness. Subsequently, a coarse-to-fine fusion strategy is adopted to progressively
-integrate different modalities, ensuring effective integration across feature spaces. Experimental results
-demonstrate that MoDA significantly improves video diversity, realism, and efficiency, making it
-suitable for real-world applications.
+popular generative technique in this field with their strong generation capabilities. However, several challenges remain for diffusion-based methods: 1) inefficient inference and visual
+artifacts caused by the implicit latent space of Variational Auto-Encoders (VAE), which complicates
+the diffusion process; 2) a lack of authentic facial expressions and head movements due to inadequate
+multi-modal information fusion. In this paper, MoDA handles these challenges by: 1) defining a joint parameter space that bridges motion generation and neural rendering, and leveraging flow matching to simplify diffusion learning; 2) introducing a multi-modal diffusion architecture to
+model the interaction among noisy motion, audio, and auxiliary conditions, enhancing
+overall facial expressiveness. In addition, a coarse-to-fine fusion strategy is employed to progressively integrate different modalities, ensuring effective feature fusion. Experimental results
+demonstrate that MoDA improves video diversity, realism, and efficiency, making it
+suitable for real-world applications. 
             </p>
 
         </div>
