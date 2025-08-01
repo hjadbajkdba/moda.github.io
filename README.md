@@ -1,7 +1,7 @@
 
 ## Anonymous demo website: https://hjadbajkdba.github.io/moda.github.io/  
 ## index.html is the source code for the website.
-## Additional details are provided in sup.pdf
+## Additional details of this paper are provided in sup.pdf
 ## Video Showcase
 #### 1. Introduction Video**
 [MoDA Demo Video](moda/moda.mp4)
