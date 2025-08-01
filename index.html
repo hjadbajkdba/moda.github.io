@@ -38,16 +38,10 @@
             </div>
 
             <p style="line-height: 30px;">
-Talking head generation with arbitrary identities and speech audio remains a crucial problem in
-the realm of the virtual metaverse. Recently, diffusion models have become a
-popular generative technique in this field with their strong generation capabilities. However, several challenges remain for diffusion-based methods: 1) inefficient inference and visual
-artifacts caused by the implicit latent space of Variational Auto-Encoders (VAE), which complicates
-the diffusion process; 2) a lack of authentic facial expressions and head movements due to inadequate
-multi-modal information fusion. In this paper, MoDA handles these challenges by: 1) defining a joint parameter space that bridges motion generation and neural rendering, and leveraging flow matching to simplify diffusion learning; 2) introducing a multi-modal diffusion architecture to
-model the interaction among noisy motion, audio, and auxiliary conditions, enhancing
-overall facial expressiveness. In addition, a coarse-to-fine fusion strategy is employed to progressively integrate different modalities, ensuring effective feature fusion. Experimental results
-demonstrate that MoDA improves video diversity, realism, and efficiency, making it
-suitable for real-world applications. 
+Talking head generation with arbitrary identities and speech audio remains a crucial problem in the realm of the virtual metaverse. 
+Despite progress, current methods still struggle to synthesize diverse facial expressions and natural head movements while generating synchronized lip movements with the audio.
+The main challenge is stylistic discrepancies between speech audio, individual identity, and portrait dynamics. 
+To address the challenge of inter-modal inconsistency, we introduce MoDA, a multi-modal diffusion architecture with two well-designed technologies. First, MoDA explicitly models the interaction among motion, audio, and auxiliary conditions, enhancing overall facial expressions and head dynamics. In addition, a coarse-to-fine fusion strategy is employed to progressively integrate different conditions, ensuring effective feature fusion. Experimental results demonstrate that MoDA improves video diversity, realism, and efficiency, making it suitable for real-world applications.
             </p>
 
         </div>
@@ -61,6 +55,12 @@ suitable for real-world applications.
                     <!-- moda -->
                     <div style="width: 14.28%; padding: 0 5px; box-sizing: border-box;">
                         <p style="text-align: center;"><strong>moda</strong></p>
+                        <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare5/our.mp4" type="video/mp4">
+                        </video>
+                        <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare4/our.mp4" type="video/mp4">
+                        </video>
                         <video style="width: 100%; object-fit: cover;" controls>
                             <source src="moda/compare/moda.mp4" type="video/mp4">
                         </video>
@@ -76,6 +76,12 @@ suitable for real-world applications.
                     <div style="width: 14.28%; padding: 0 5px; box-sizing: border-box;">
                         <p style="text-align: center;"><strong>echomimic</strong></p>
                         <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare5/ec.mp4" type="video/mp4">
+                        </video>
+                        <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare4/ec.mp4" type="video/mp4">
+                        </video>
+                        <video style="width: 100%; object-fit: cover;" controls>
                             <source src="moda/compare/ec.mp4" type="video/mp4">
                         </video>
                         <video style="width: 100%; object-fit: cover;" controls>
@@ -89,6 +95,12 @@ suitable for real-world applications.
                     <!-- hallo2 -->
                     <div style="width: 14.28%; padding: 0 5px; box-sizing: border-box;">
                         <p style="text-align: center;"><strong>hallo2</strong></p>
+                        <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare5/hallo2.mp4" type="video/mp4">
+                        </video>
+                        <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare4/hallo2.mp4" type="video/mp4">
+                        </video>
                         <video style="width: 100%; object-fit: cover;" controls>
                             <source src="moda/compare/hallo2.mp4" type="video/mp4">
                         </video>
@@ -104,6 +116,12 @@ suitable for real-world applications.
                     <div style="width: 14.28%; padding: 0 5px; box-sizing: border-box;">
                         <p style="text-align: center;"><strong>hallo</strong></p>
                         <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare5/hallo.mp4" type="video/mp4">
+                        </video>
+                        <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare4/hallo.mp4" type="video/mp4">
+                        </video>
+                        <video style="width: 100%; object-fit: cover;" controls>
                             <source src="moda/compare/hallo.mp4" type="video/mp4">
                         </video>
                         <video style="width: 100%; object-fit: cover;" controls>
@@ -117,6 +135,12 @@ suitable for real-world applications.
                     <!-- joyhallo -->
                     <div style="width: 14.28%; padding: 0 5px; box-sizing: border-box;">
                         <p style="text-align: center;"><strong>joyhallo</strong></p>
+                        <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare5/joyhallo.mp4" type="video/mp4">
+                        </video>
+                        <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare4/joyhallo.mp4" type="video/mp4">
+                        </video>
                         <video style="width: 100%; object-fit: cover;" controls>
                             <source src="moda/compare/joyhallo.mp4" type="video/mp4">
                         </video>
@@ -132,6 +156,12 @@ suitable for real-world applications.
                     <div style="width: 14.28%; padding: 0 5px; box-sizing: border-box;">
                         <p style="text-align: center;"><strong>joyvasa</strong></p>
                         <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare5/joyvasa.mp4" type="video/mp4">
+                        </video>
+                        <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare4/joyvasa.mp4" type="video/mp4">
+                        </video>
+                        <video style="width: 100%; object-fit: cover;" controls>
                             <source src="moda/compare/joyvasa.mp4" type="video/mp4">
                         </video>
                         <video style="width: 100%; object-fit: cover;" controls>
@@ -144,6 +174,12 @@ suitable for real-world applications.
                     <!-- ditto-->
                     <div style="width: 14.28%; padding: 0 5px; box-sizing: border-box;">
                         <p style="text-align: center;"><strong>ditto</strong></p>
+                        <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare5/ditto.mp4" type="video/mp4">
+                        </video>
+                        <video style="width: 100%; object-fit: cover;" controls>
+                            <source src="moda/compare4/ditto.mp4" type="video/mp4">
+                        </video>
                         <video style="width: 100%; object-fit: cover;" controls>
                             <source src="moda/compare/ditto.mp4" type="video/mp4">
                         </video>
