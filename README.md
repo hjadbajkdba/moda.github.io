@@ -3,7 +3,8 @@
 ## Overview
 
 MoDA (Multi-modal Diffusion Architecture) addresses the challenges of talking head generation with arbitrary identities and speech audio in virtual environments. Current methods struggle with synthesizing diverse facial expressions and natural head movements while ensuring synchronized lip movements with the audio. MoDA introduces innovative technologies to overcome these issues, resulting in enhanced video diversity, realism, and efficiency.
-##Anonymous demo website: https://hjadbajkdba.github.io/moda.github.io/
+## Anonymous demo website: https://hjadbajkdba.github.io/moda.github.io/
+
 ## Video Showcase
 
 ### 1. **Introduction Video**
